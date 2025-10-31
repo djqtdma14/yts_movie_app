@@ -37,7 +37,7 @@ const Home = () => {
             <div className='movies'>
               {
                 movies.map(movie => {
-                  console.log('movie :', movie)
+                  // console.log('movie :', movie);
                   return <Movie 
                     key={movie.id}
                     id={movie.id}
